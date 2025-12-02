@@ -1,0 +1,89 @@
+/* Page Setup */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #302f2f;
+  padding: 12px;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #9c27b0; /* soft purple accent */
+}
+
+/* Brand Section */
+.brand {
+  font-size: 2.8rem;
+  color: #d1c4e9;
+  margin-top: 25px;
+}
+
+.slogan {
+  font-size: 1.1rem;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  color: #fff;
+}
+
+/* Products */
+.products {
+  margin-top: 20px;
+}
+
+.product {
+  display: inline-block;
+  background-color: #1a1a1a;
+  margin: 12px;
+  padding: 15px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 6px;
+}
+
+.product h3 {
+  color: #c5cae9;
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
+.product-images img {
+  width: 45%;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+/* Price */
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* Coming Soon */
+.coming {
+  font-size: 1.3rem;
+  color: #9c27b0;
+  font-weight: bold;
+  margin-top: 30px;
+}
